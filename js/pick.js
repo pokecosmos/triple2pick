@@ -71,7 +71,7 @@ function output(count_num, num){
 	 var n1, n2;
 	 
 	 if(count_num == 1){
-          p0.innerHTML = "ポケモン選択(鋼タイプorワイドガード枠)";
+          p0.innerHTML = "ポケモン選択</br>(鋼タイプorワイドガード枠)";
           x1 = document.nForm.elements[poke[num]].value;
           p1.innerHTML = x1;
           random1 =  Math.floor(Math.random() * list_1.length);
@@ -91,7 +91,7 @@ function output(count_num, num){
           document.nForm.elements[poke[1]].value= n2;
           
      }else if(count_num == 2){
-          p0.innerHTML = "ポケモン選択(ねこだまし枠)";
+          p0.innerHTML = "ポケモン選択</br>(ねこだまし枠)";
           x2 = document.nForm.elements[poke[num]].value;
           p2.innerHTML = x2;
           random1 =  Math.floor(Math.random() * list_2.length);
@@ -111,7 +111,7 @@ function output(count_num, num){
           document.nForm.elements[poke[1]].value= n2;
           
      }else if(count_num == 3){
-          p0.innerHTML = "ポケモン選択(S操作枠)";
+          p0.innerHTML = "ポケモン選択</br>(S操作枠)";
           x3 = document.nForm.elements[poke[num]].value;
           p3.innerHTML = x3;
           random1 =  Math.floor(Math.random() * list_3.length);
@@ -131,7 +131,7 @@ function output(count_num, num){
           document.nForm.elements[poke[1]].value= n2;
           
      }else if(count_num == 4){
-          p0.innerHTML = "ポケモン選択(いかく枠)";
+          p0.innerHTML = "ポケモン選択</br>(いかく枠)";
           x4 = document.nForm.elements[poke[num]].value;
           p4.innerHTML = x4;
           random1 =  Math.floor(Math.random() * list_4.length);
@@ -151,7 +151,7 @@ function output(count_num, num){
           document.nForm.elements[poke[1]].value= n2;
           
      }else if(count_num == 5){
-          p0.innerHTML = "ポケモン選択(その他枠)";
+          p0.innerHTML = "ポケモン選択</br>(その他枠)";
           x5 = document.nForm.elements[poke[num]].value;
           p5.innerHTML = x5;
           random1 =  Math.floor(Math.random() * list_5.length);
