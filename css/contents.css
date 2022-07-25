@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+	line-height: 25px;
+	background-color: #f0f8ff;
+	color: #000000;
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+	font-size: 16px;
+}
+p {
+	line-height: 0px;
+}
+input{
+	//width: 47px;
+}
+input.start{
+	width: 240px;
+	height: 50px;
+	font-size: 200%;
+}
+input.restart{
+	width: 100px;
+	height: 30px;
+	font-size: 100%;
+}
+
+/*-- スマホ版非表示設定  --*/
+@media screen and (max-width: 500px){
+	input.pc{
+		display:none;
+	}
+}
